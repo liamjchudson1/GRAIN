@@ -1,0 +1,12 @@
+{
+  "name": "grain",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "db:push": "cd backend && npm run db:push",
+    "db:studio": "cd backend && npm run db:studio"
+  }
+}
