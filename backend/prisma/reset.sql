@@ -1,0 +1,5 @@
+-- Reset script to drop all tables
+DROP TABLE IF EXISTS "Reaction" CASCADE;
+DROP TABLE IF EXISTS "Friend" CASCADE;
+DROP TABLE IF EXISTS "Post" CASCADE;
+DROP TABLE IF EXISTS "User" CASCADE;
